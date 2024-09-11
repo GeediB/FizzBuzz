@@ -57,6 +57,7 @@ class Fizzbuzz_while {
         }
 
         v++;
+
         return v;
     }
 }
