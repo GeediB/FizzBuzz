@@ -33,7 +33,7 @@ class FizzBuzz {
     }
 }
 
-class Fizzbuzz_while {
+class FizzBuzz2 {
     public static void main(String[] args) {
         int v = 1;
 
@@ -42,7 +42,7 @@ class Fizzbuzz_while {
         }
     }
 
-    private static int doFizzBuzz(int v) {
+    public static int doFizzBuzz(int v) {
         boolean divisibleBy3 = v % 3 == 0;
         boolean divisibleBy5 = v % 5 == 0;
 
